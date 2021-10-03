@@ -46,27 +46,27 @@ public class Login extends javax.swing.JFrame {
 
         jPanel1.setBorder(javax.swing.BorderFactory.createEtchedBorder());
 
-        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel2.setFont(new java.awt.Font("Tahoma", 0, 38)); // NOI18N
         jLabel2.setText("Username");
 
-        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jLabel3.setFont(new java.awt.Font("Tahoma", 0, 38)); // NOI18N
         jLabel3.setText("Password");
 
-        jPassword.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jPassword.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
         jPassword.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jPasswordActionPerformed(evt);
             }
         });
 
-        jtxtUsername.setFont(new java.awt.Font("Tahoma", 0, 18)); // NOI18N
+        jtxtUsername.setFont(new java.awt.Font("Tahoma", 0, 20)); // NOI18N
         jtxtUsername.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jtxtUsernameActionPerformed(evt);
             }
         });
 
-        jbtnLogin.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jbtnLogin.setFont(new java.awt.Font("Tahoma", 0, 38)); // NOI18N
         jbtnLogin.setText("Login");
         jbtnLogin.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbtnLogin.addActionListener(new java.awt.event.ActionListener() {
@@ -75,7 +75,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        jbtnExit.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jbtnExit.setFont(new java.awt.Font("Tahoma", 0, 38)); // NOI18N
         jbtnExit.setText("Exit");
         jbtnExit.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbtnExit.addActionListener(new java.awt.event.ActionListener() {
@@ -84,7 +84,7 @@ public class Login extends javax.swing.JFrame {
             }
         });
 
-        jbtnReset.setFont(new java.awt.Font("Tahoma", 0, 36)); // NOI18N
+        jbtnReset.setFont(new java.awt.Font("Tahoma", 0, 38)); // NOI18N
         jbtnReset.setText("Reset");
         jbtnReset.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jbtnReset.addActionListener(new java.awt.event.ActionListener() {
